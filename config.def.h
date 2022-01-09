@@ -7,6 +7,7 @@ static const unsigned int alpha = 0xf0;
 static const char *fonts[] = {
 	"JetbrainsMono:size=12"
 };
+
 static const char *prompt      = "Search: ";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
