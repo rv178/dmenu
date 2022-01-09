@@ -24,7 +24,7 @@ static const unsigned int alphas[SchemeLast][2] = {
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 8;
-static unsigned int columns    = 2;
+static unsigned int columns    = 1;
 
 /* -h option; minimum height of a menu line */
 static unsigned int lineheight = 35;
@@ -37,4 +37,4 @@ static unsigned int min_lineheight = 35;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 2;
+static const unsigned int border_width = 1;
