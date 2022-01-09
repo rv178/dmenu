@@ -12,8 +12,8 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#D8DEE9", "#2E3440" },
 	[SchemeSel] = { "#D8DEE9", "#5E81AC" },
-	[SchemeOut] = { "#000000", "#00ffff" },
-	[SchemeHp] = { "#bbbbbb", "#333333" }
+	[SchemeOut] = { "#D8DEE9", "#2E3440" },
+	[SchemeHp] = { "#D8DEE9", "#88C0D0" }
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
