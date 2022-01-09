@@ -7,7 +7,7 @@ static const unsigned int alpha = 0xf0;
 static const char *fonts[] = {
 	"JetbrainsMono:size=12"
 };
-static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
+static const char *prompt      = "Search: ";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#D8DEE9", "#2E3440" },
@@ -23,7 +23,7 @@ static const unsigned int alphas[SchemeLast][2] = {
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
 static unsigned int lines      = 8;
-static unsigned int columns    = 1;
+static unsigned int columns    = 2;
 
 /* -h option; minimum height of a menu line */
 static unsigned int lineheight = 35;
