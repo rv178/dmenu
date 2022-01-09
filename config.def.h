@@ -8,6 +8,8 @@ static const char *fonts[] = {
 	"JetbrainsMono:size=12"
 };
 
+static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
+
 static const char *prompt      = "Search: ";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
