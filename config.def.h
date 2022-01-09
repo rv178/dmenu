@@ -22,8 +22,12 @@ static const unsigned int alphas[SchemeLast][2] = {
 };
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
-static unsigned int lines      = 12;
+static unsigned int lines      = 8;
 static unsigned int columns    = 1;
+
+/* -h option; minimum height of a menu line */
+static unsigned int lineheight = 35;
+static unsigned int min_lineheight = 35;
 
 /*
  * Characters not considered part of a word while deleting words
