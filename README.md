@@ -22,3 +22,6 @@ Afterwards enter the following command to build and install dmenu
 # Running dmenu
 
 See the man page for details.
+
+# Screenshots
+![Alt text](./screenshots/ss.png)
