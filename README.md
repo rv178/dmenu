@@ -9,7 +9,7 @@ In order to build dmenu you need the Xlib header files.
 # Installation
 
 ```
-cd src
+cd dmenu
 ```
 
 Edit config.mk to match your local setup (dmenu is installed into
