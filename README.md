@@ -8,10 +8,12 @@ In order to build dmenu you need the Xlib header files.
 
 # Installation
 
-Edit src/config.mk to match your local setup (dmenu is installed into
-the /usr/local namespace by default).
+```
+cd src
+```
 
-Change directories into `src`
+Edit config.mk to match your local setup (dmenu is installed into
+the /usr/local namespace by default).
 
 Afterwards enter the following command to build and install dmenu
 (if necessary as root):
