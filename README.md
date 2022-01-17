@@ -2,6 +2,9 @@
 
 dmenu is an efficient dynamic menu for X.
 
+`./dmenu-top` is the same config without the center patch.
+`./dmenu` is my original dmenu config.
+
 # Requirements
 
 In order to build dmenu you need the Xlib header files.
@@ -10,6 +13,12 @@ In order to build dmenu you need the Xlib header files.
 
 ```
 cd dmenu
+```
+
+or
+
+```
+cd dmenu-top
 ```
 
 Edit config.mk to match your local setup (dmenu is installed into
@@ -26,4 +35,5 @@ See the man page for details.
 
 # Screenshots
 
-![Alt text](./screenshots/ss.png)
+![Alt text](./screenshots/ss1.png)
+![Alt text](./screenshots/ss2.png)
