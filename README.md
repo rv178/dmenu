@@ -35,5 +35,10 @@ See the man page for details.
 
 # Screenshots
 
+### dmenu
+
 ![Alt text](./screenshots/ss1.png)
+
+### dmenu-top
+
 ![Alt text](./screenshots/ss2.png)
