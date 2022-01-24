@@ -1,0 +1,16 @@
+#!/bin/bash
+DMENU='dmenu -i'
+EDITOR='nvim'
+TERMINAL='st'
+choice=$(echo -e "1: nvim\n2: bspwm\n3: neofetch\n4: sxhkd\n5: dunst\n6: ranger\n7: picom" | $DMENU | cut -d ':' -f 1)
+case "$choice" in
+  1) $TERMINAL -e $EDITOR ~/.config/nvim/init.vim				;;
+  2) $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc				;;
+  3) $TERMINAL -e $EDITOR ~/.config/neofetch/config.conf		;;
+  4) $TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc				;;
+  5) $TERMINAL -e $EDITOR ~/.config/dunst/dunstrc				;;
+  6) $TERMINAL -e $EDITOR ~/.config/ranger/rc.conf				;;
+  7) $TERMINAL -e $EDITOR ~/.config/picom/picom.conf			;;
+  8) $TERMINAL -e $EDITOR ~/.config/nvim/init.vim				;;
+  9) $TERMINAL -e $EDITOR ~/.config/nvim/init.vim				;;
+esac
